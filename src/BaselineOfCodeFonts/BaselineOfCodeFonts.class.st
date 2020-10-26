@@ -13,12 +13,14 @@ BaselineOfCodeFonts >> baseline: spec [
 	spec for: #'common' do: [
 		"Packages"	
 		spec 
+			package: 'Pharo-CodeFonts-Hack';
 			package: 'Pharo-CodeFonts-JetBrains'.
 		
 		"Groups"
 		spec 
+			group: 'Hack' with: #('Pharo-CodeFonts-Hack');
 			group: 'JetBrains' with: #('Pharo-CodeFonts-JetBrains');
-			group: 'all' with: #('JetBrains');
+			group: 'all' with: #('Hack' 'JetBrains');
 			group: 'default' with: #('all')
 	]
 ]
