@@ -6,6 +6,6 @@ Some popular fonts for coding
 ```Smalltalk
   Metacello new
       baseline:'CodeFonts';
-      repository: 'github://astares/Pharo-CodeFonts:master/src';
+      repository: 'github://astares/Pharo-CodeFonts:main/src';
       load
 ```
