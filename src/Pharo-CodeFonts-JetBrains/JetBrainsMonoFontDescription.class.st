@@ -112,6 +112,19 @@ JetBrainsMonoFontDescription class >> canBeInstalled [
 	^self isAbstract not 
 ]
 
+{ #category : #'class initialization' }
+JetBrainsMonoFontDescription class >> initialize [
+
+	self installAllFonts 
+]
+
+{ #category : #actions }
+JetBrainsMonoFontDescription class >> installAllFonts [
+	<script>
+	
+	self allSubclassesDo: [:each | each install ]
+]
+
 { #category : #testing }
 JetBrainsMonoFontDescription class >> isAbstract [ 
 
