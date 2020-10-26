@@ -1,5 +1,5 @@
 # Pharo-CodeFonts
-Some popular fonts for coding
+Some popular fonts for coding as embedded font for use in [Pharo](http://www.pharo.org) images
 
 - [https://github.com/JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono)
 - [https://github.com/source-foundry/Hack](https://github.com/source-foundry/Hack)
