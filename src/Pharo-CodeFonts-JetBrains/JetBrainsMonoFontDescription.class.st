@@ -101,7 +101,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 "
 Class {
 	#name : #JetBrainsMonoFontDescription,
-	#superclass : #EmbeddedFreeTypeFontFontDescription,
+	#superclass : #EmbeddedFreeTypeFontDescription,
 	#category : #'Pharo-CodeFonts-JetBrains-Mono'
 }
 
