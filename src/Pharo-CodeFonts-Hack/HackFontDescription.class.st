@@ -50,7 +50,7 @@ Except as contained in this notice, the names of Gnome, the Gnome Foundation, an
 "
 Class {
 	#name : #HackFontDescription,
-	#superclass : #EmbeddedFreeTypeFontFontDescription,
+	#superclass : #EmbeddedFreeTypeFontDescription,
 	#category : #'Pharo-CodeFonts-Hack-Base'
 }
 
