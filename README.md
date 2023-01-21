@@ -4,6 +4,10 @@ Some popular fonts for coding as embedded font for use in [Pharo](http://www.pha
 - [https://github.com/JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono)
 - [https://github.com/source-foundry/Hack](https://github.com/source-foundry/Hack)
 
+[![Pharo 9](https://img.shields.io/badge/Pharo-9.0-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 10](https://img.shields.io/badge/Pharo-10-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 11](https://img.shields.io/badge/Pharo-11-%23aac9ff.svg)](https://pharo.org/download)
+
 ## Quick start 
 
 ```Smalltalk
