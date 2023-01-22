@@ -16,8 +16,8 @@ JetBrainsMonoLightItalic class >> fontContents [
 JetBrainsMonoLightItalic class >> install [
 	<script>
 
-	EmbeddedFreeTypeFontInstaller current 
-		addFromFileContents: self fontContents 
+	EmbeddedFreeTypeFontInstaller current
+		addFromFileContents: self fontContents
 		baseName: self originalFileName.
 	FreeTypeFontProvider current updateEmbeddedFreeTypeFonts
 ]

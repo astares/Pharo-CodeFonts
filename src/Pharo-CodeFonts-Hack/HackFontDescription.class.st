@@ -57,24 +57,24 @@ Class {
 { #category : #testing }
 HackFontDescription class >> canBeInstalled [
 	"Only allow concrete subclasses to be installed"
-	
-	^self isAbstract not 
+
+	^self isAbstract not
 ]
 
 { #category : #'class initialization' }
 HackFontDescription class >> initialize [
 
-	self installAllFonts 
+	self installAllFonts
 ]
 
 { #category : #actions }
 HackFontDescription class >> installAllFonts [
 	<script>
-	
+
 	self allSubclassesDo: [:each | each install ]
 ]
 
 { #category : #testing }
-HackFontDescription class >> isAbstract [ 
+HackFontDescription class >> isAbstract [
 	^self name =  #HackFontDescription
 ]

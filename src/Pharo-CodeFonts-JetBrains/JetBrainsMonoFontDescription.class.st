@@ -108,25 +108,25 @@ Class {
 { #category : #testing }
 JetBrainsMonoFontDescription class >> canBeInstalled [
 	"Only allow concrete subclasses to be installed"
-	
-	^self isAbstract not 
+
+	^self isAbstract not
 ]
 
 { #category : #'class initialization' }
 JetBrainsMonoFontDescription class >> initialize [
 
-	self installAllFonts 
+	self installAllFonts
 ]
 
 { #category : #actions }
 JetBrainsMonoFontDescription class >> installAllFonts [
 	<script>
-	
+
 	self allSubclassesDo: [:each | each install ]
 ]
 
 { #category : #testing }
-JetBrainsMonoFontDescription class >> isAbstract [ 
+JetBrainsMonoFontDescription class >> isAbstract [
 
 	^self name = #JetBrainsMonoFontDescription
 ]
