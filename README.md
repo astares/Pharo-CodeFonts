@@ -10,6 +10,8 @@ Some popular fonts for coding as embedded font for use in [Pharo](http://www.pha
 
 ## Quick start 
 
+### Installation
+
 ```Smalltalk
   Metacello new
       baseline:'CodeFonts';
