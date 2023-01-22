@@ -7,17 +7,17 @@ Class {
 	#category : #'BaselineOfCodeFonts-Base'
 }
 
-{ #category : #baseline }
-BaselineOfCodeFonts >> baseline: spec [	
+{ #category : #baselines }
+BaselineOfCodeFonts >> baseline: spec [
 	<baseline>
 	spec for: #'common' do: [
-		"Packages"	
-		spec 
+		"Packages"
+		spec
 			package: 'Pharo-CodeFonts-Hack';
 			package: 'Pharo-CodeFonts-JetBrains'.
-		
+
 		"Groups"
-		spec 
+		spec
 			group: 'Hack' with: #('Pharo-CodeFonts-Hack');
 			group: 'JetBrains' with: #('Pharo-CodeFonts-JetBrains');
 			group: 'all' with: #('Hack' 'JetBrains');
